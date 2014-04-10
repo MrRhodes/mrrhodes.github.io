@@ -526,8 +526,11 @@
                 });
             }
             
-            alert(window.chrome);
-           alert(window.navigator.platform);
+            for(var prop in window.navigator) {
+            	 if window.navigator.hasOwnProperty(prop)) {
+            	 	alert(prop+" : "+window.navigator[prop]);
+            	 }
+            }
             
         </script>
    
