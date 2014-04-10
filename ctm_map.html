@@ -75,10 +75,14 @@
 <span class='st_twitter_vcount' displayText='Tweet' st_url="http://www.comparethemarket.com/meerkat/caravan-club/caravan-map/" st_via='' st_title="Sergei&#39;s caravan club. I have read Caravan site review section."></span>
 <span class='st_googleplus_vcount' st_url="http://www.comparethemarket.com/meerkat/caravan-club/caravan-map/"></span>
 
-<script type="text/javascript">var switchTo5x = true;</script>
+<script type="text/javascript">
+	var switchTo5x = true;
+	var popupFlag = !navigator.userAgent.match('CriOS');
+	alert(popupFlag);
+</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">
-    stLight.options({ publisher: "1d5f6d0b-2559-4d1c-a0d7-245b5d98392c", onhover: true,servicePopup: !navigator.userAgent.match('CriOS'), doNotHash: true, doNotCopy: true, hashAddressBar: false });
+    stLight.options({ publisher: "1d5f6d0b-2559-4d1c-a0d7-245b5d98392c", onhover: true,servicePopup: popupFlag, doNotHash: true, doNotCopy: true, hashAddressBar: false });
 </script>
                         </div>
                     </div>
