@@ -1,0 +1,1 @@
+var stodtargetElement = document.getElementById('stodScriptElement');if(stodtargetElement)stodtargetElement.responseReceived = true;
